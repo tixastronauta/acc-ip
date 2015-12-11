@@ -1,0 +1,36 @@
+{
+  "name": "tixastronauta/acc-ip",
+  "description": "PHP 5 library to retrieve client's accurate IP Address",
+  "keywords": [
+    "IP",
+    "IP Address",
+    "PHP IP",
+    "PHP IP Address",
+    "PHP"
+  ],
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "config": {
+    "vendor-dir": "vendor",
+    "bin-dir": "bin",
+    "config-dir": "config"
+  },
+  "autoload": {
+    "psr-0": {
+      "": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Tiago Carvalho",
+      "email": "tiago.carvalho@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.0.*"
+  }
+}
