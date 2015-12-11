@@ -1,6 +1,8 @@
 tixastronauta/acc-ip
 =============================
 
+[![Build Status](https://travis-ci.org/tixastronauta/acc-ip.svg?branch=master)](https://travis-ci.org/tixastronauta/acc-ip)
+
 PHP 5 library to retrieve client's accurate IP Address
 
 # Installing
