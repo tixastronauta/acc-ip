@@ -15,7 +15,7 @@ $ composer require tixastronauta/acc-ip
 
 # Using
 
-```
+```php
 require 'vendor/autoload.php'
 
 use TixAstronauta\AccIp;
