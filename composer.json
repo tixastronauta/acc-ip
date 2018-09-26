@@ -17,8 +17,13 @@
     "config-dir": "config"
   },
   "autoload": {
-    "psr-0": {
-      "": "src/"
+    "psr-4": {
+      "TixAstronauta\\AccIp\\": "src/TixAstronauta/AccIp"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TixAstronauta\\AccIp\\Tests\\": "tests"
     }
   },
   "authors": [
@@ -31,6 +36,6 @@
     "php": ">=5.4.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "4.8.*"
+    "phpunit/phpunit": "^4.8 || ^5.7 || ^6.5"
   }
 }

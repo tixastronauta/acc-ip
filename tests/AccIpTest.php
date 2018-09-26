@@ -24,7 +24,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
  */
 
-class AccIpTest extends PHPUnit_Framework_TestCase
+namespace TixAstronauta\AccIp\Test;
+
+use PHPUnit\Framework\TestCase;
+
+class AccIpTest extends TestCase
 {
     /**
      * @dataProvider serverEnvironmentGood
