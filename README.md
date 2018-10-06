@@ -18,13 +18,13 @@ $ composer require tixastronauta/acc-ip
 ```php
 require 'vendor/autoload.php'
 
-use TixAstronauta\AccIp;
+use TixAstronauta\AccIp\AccIp as AccIp;
 
 $accIp = new AccIp();
 $ipAddress = $accIp->getIpAddress(); // this is the client's accurate IP Address. false on failure
 ```
 
-# License 
+# License
 
 ```
 The MIT License (MIT)
