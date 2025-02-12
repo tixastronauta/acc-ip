@@ -8,7 +8,9 @@ tixastronauta/acc-ip
 [![CodeFactor](https://www.codefactor.io/repository/github/tixastronauta/acc-ip/badge)](https://www.codefactor.io/repository/github/tixastronauta/acc-ip)
 [![Build Status](https://github.com/tixastronauta/acc-ip/actions/workflows/ci.yml/badge.svg)](https://github.com/tixastronauta/acc-ip/actions/workflows/ci.yml)
 
-PHP library to retrieve the mos accurate client's accurate IP Address.
+# Accurate IP Address
+
+PHP library to retrieve the most accurate client's accurate IP Address.
 
 Instead of simply checking the `$_SERVER['REMOTE_ADDR']` variable, this library checks for the most common headers that contain the client's IP Address:
 
