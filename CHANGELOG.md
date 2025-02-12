@@ -1,6 +1,10 @@
 CHANGELOG
 ===
 
+# 1.3.0  (2025-02-12)
+
+- Version bump to trigger packagist update
+
 # 1.2.0 (2025-02-12)
 
 - Re-ordered the list of headers to check for the client IP address
