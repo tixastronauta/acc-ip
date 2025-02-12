@@ -6,7 +6,7 @@ tixastronauta/acc-ip
 [![Latest Unstable Version](https://poser.pugx.org/tixastronauta/acc-ip/v/unstable)](//packagist.org/packages/tixastronauta/acc-ip)
 [![License](https://poser.pugx.org/tixastronauta/acc-ip/license)](//packagist.org/packages/tixastronauta/acc-ip)
 [![CodeFactor](https://www.codefactor.io/repository/github/tixastronauta/acc-ip/badge)](https://www.codefactor.io/repository/github/tixastronauta/acc-ip)
-[![Build Status](https://github.com/tixastronauta/acc-ip/actions/workflows/ci.yml/badge.svg)](https://github.com/tixastronauta/acc-ip/actions/workflows/ci.yml)
+[![Build Status](https://github.com/tixastronauta/acc-ip/actions/workflows/php.yml/badge.svg)](https://github.com/tixastronauta/acc-ip/actions/workflows/php.yml)
 
 # Accurate IP Address
 
