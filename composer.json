@@ -1,12 +1,14 @@
 {
   "name": "tixastronauta/acc-ip",
-  "description": "PHP 5 library to retrieve client's accurate IP Address",
+  "description": "Retrieve the most accurate client's IP Address",
+  "version": "1.2.0",
   "keywords": [
-    "IP",
-    "IP Address",
-    "PHP IP",
-    "PHP IP Address",
-    "PHP"
+    "client ip",
+    "client ip address",
+    "visitor ip",
+    "visitor ip address",
+    "real ip address",
+    "accurate ip address"
   ],
   "type": "library",
   "minimum-stability": "stable",

@@ -70,15 +70,15 @@ class AccIp
     private function getDefaultHeaders()
     {
         return [
-            'HTTP_CF_CONNECTING_IP',
-            'HTTP_CLIENT_IP',
-            'HTTP_X_FORWARDED_FOR',
-            'HTTP_X_FORWARDED',
-            'HTTP_X_CLUSTER_CLIENT_IP',
-            'HTTP_FORWARDED_FOR',
-            'HTTP_FORWARDED',
-            'HTTP_X_REAL_IP',
-            'REMOTE_ADDR'
+            'HTTP_CF_CONNECTING_IP',      // Cloudflare real IP (best if using Cloudflare)
+            'HTTP_X_FORWARDED_FOR',       // Standard proxy header (but can have multiple IPs)
+            'HTTP_X_REAL_IP',             // Used by Nginx and some proxies
+            'HTTP_X_CLUSTER_CLIENT_IP',   // Used by AWS ELB, etc.
+            'HTTP_FORWARDED_FOR',         // RFC-compliant version of `X-Forwarded-For`
+            'HTTP_FORWARDED',             // RFC-compliant `Forwarded` header
+            'HTTP_X_FORWARDED',           // Similar to `X-Forwarded-For`
+            'HTTP_CLIENT_IP',             // Set by some proxies, but can be spoofed
+            'REMOTE_ADDR'                 // Fallback (often the load balancer)
         ];
     }
 
